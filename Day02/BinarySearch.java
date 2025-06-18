@@ -9,15 +9,15 @@ public class BinarySearch {
         while (left <= right) {
             int mid = left + (right - left) / 2;
 
-            // Check if x is present at mid
+            // Check if key is present at mid
             if (arr[mid] == key) {
                 return mid; // Element found
             }
 
-            // If x is greater, ignore left half
+            // If key is greater, ignore left half
             if (arr[mid] < key) {
                 left = mid + 1;
-            } else { // If x is smaller, ignore right half
+            } else { // If key is smaller, ignore right half
                 right = mid - 1;
             }
         }
