@@ -27,6 +27,6 @@ class Client {
         
         String[] strs = {"Gita", "Green", "Grapes"};
         String result = LongestPrefix.longestCommonPrefix(strs);
-        System.out.println("Longest Common Prefix: " + result); // Output: "G"
+        System.out.println("Longest Common Prefix: " + result); 
     }
 }
