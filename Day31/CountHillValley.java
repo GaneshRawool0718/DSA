@@ -36,10 +36,10 @@ public class CountHillValley {
 
 }
 
-class Main {
-    public static void main(String[] args) {
-        CountHillValley chv = new CountHillValley();
-        int[] nums = {2, 4, 1, 1, 6, 5};
-        System.out.println("Number of hills and valleys: " + chv.countHillValley(nums)); // Output: 3
-    }
-}
+// class Main {
+//     public static void main(String[] args) {
+//         CountHillValley chv = new CountHillValley();
+//         int[] nums = {2, 4, 1, 1, 6, 5};
+//         System.out.println("Number of hills and valleys: " + chv.countHillValley(nums)); // Output: 3
+//     }
+// }
